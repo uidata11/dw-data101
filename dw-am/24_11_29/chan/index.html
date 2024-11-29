@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I'm...</title>
+    <style>
+      ul.first {
+        display: flex;
+        position: fixed;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0;
+      }
+      .container {
+        width: 200px;
+        height: 50vh;
+      }
+      .first.container {
+        background-color: red;
+      }
+      .second.container {
+        background-color: blue;
+      }
+      .third.container {
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="display: flex; flex-direction: column">
+      <a href="https://4910.kr/goods/33451652" target="_self">여기창 옷사</a>
+      <a href="https://4910.kr/goods/33451652" target="_blank">새창 옷사</a>
+    </div>
+    <header>
+      <ul class="first">
+        <li><a href="#f">1으로 가</a></li>
+        <li><a href="#s">2으로 가</a></li>
+        <li><a href="#t">3으로 가</a></li>
+      </ul>
+    </header>
+    <div class="first container" id="f">
+      <button>취미</button>
+    </div>
+    <div class="second container" id="s">좋아하는것</div>
+    <div class="third container" id="t">연애</div>
+    <ul>
+      <li><a href="https://4910.kr/goods/33451652 ">4910</a></li>
+    </ul>
+  </body>
+</html>

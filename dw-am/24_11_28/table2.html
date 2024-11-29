@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>table</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid #ccc;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        padding: 10px 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>gmail</li>
+      <li>image</li>
+      <li>apps</li>
+      <li>signin</li>
+    </ul>
+    <table>
+      <caption>
+        table title: caption
+      </caption>
+      <thead>
+        <tr>
+          <th colspan="7">테이블 빡셈</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="3">title1</td>
+          <td colspan="5">title1</td>
+          <td rowspan="3">비고</td>
+        </tr>
+        <tr>
+          <td>title1</td>
+          <td>title1</td>
+          <td>title1</td>
+          <td>title1</td>
+          <td>title1</td>
+        </tr>
+        <tr>
+          <td>title1</td>
+          <td>title1</td>
+          <td>title1</td>
+          <td>title1</td>
+          <td>title1</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <th colspan="7"></th>
+      </tfoot>
+    </table>
+  </body>
+</html>
