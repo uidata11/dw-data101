@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>table_style</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <header>
+    <a href="introduce.html">홈페이지</a>
+    <ul>
+      <li><a href="texts.htm">texts</a></li>
+      <li><a href="list.htm">list</a></li>
+      <li><a href="table_sol.htm">table</a></li>
+    </ul>
+  </header>
+  <body>
+    <!--책 95,96쪽 테이블 만들기-->
+    <h1>상품구성</h1>
+    <table>
+      <caption>
+        선물용과 가정용 상품 구성
+      </caption>
+      <!--th, td, tf-->
+      <thead>
+        <tr>
+          <th>용도</th>
+          <th>중량</th>
+          <th>개수</th>
+          <th>가격</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>선물용</td>
+          <td>3kg</td>
+          <td>11-16과</td>
+          <td>35,000원</td>
+        </tr>
+        <tr>
+          <td>선물용</td>
+          <td>3kg</td>
+          <td>11-16과</td>
+          <td>35,000원</td>
+        </tr>
+        <tr>
+          <td>선물용</td>
+          <td>3kg</td>
+          <td>11-16과</td>
+          <td>35,000원</td>
+        </tr>
+        <tr>
+          <td>선물용</td>
+          <td>3kg</td>
+          <td>11-16과</td>
+          <td>35,000원</td>
+        </tr>
+      </tbody>
+    </table>
+    <table style="margin-top: 50px">
+      <caption>
+        요안도라 객실
+      </caption>
+      <thead>
+        <tr>
+          <th>방 이름</th>
+          <th>대상</th>
+          <th>크기</th>
+          <th>가격</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>유채방</td>
+          <td>여성 도미토리</td>
+          <td rowspan="3">4인실</td>
+          <td rowspan="4">1인 20,000원</td>
+        </tr>
+        <tr>
+          <td rowspan="2">동백방</td>
+          <td>동성 도미토리</td>
+        </tr>
+        <tr>
+          <td>가족 1팀</td>
+        </tr>
+        <tr>
+          <td>천혜향방</td>
+          <td>-</td>
+          <td>2인실</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th colspan="4">바깥채 전체를 렌트합니다.</th>
+        </tr>
+      </tfoot>
+    </table>
+    <footer>
+      <a href="https://github.com/uidata11/dw-data101">my github</a>
+    </footer>
+  </body>
+</html>
