@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.wrap {
+  width: 1200px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  border: 2px solid red;
+  /* height: 200px; */
+  /* vertical-align: middle; 수직 정렬 */
+  padding: 50px 0;
+  text-align: center;
+}
+.menu {
+  font-size: 20px;
+  padding: 0 20px;
+}
+.menu:hover {
+  /* 마우스커서가 위에 올라오면 동작 */
+  cursor: pointer;
+  color: red;
+  background-color: #9e9e9e;
+}
+.hot {
+  list-style-type: none;
+  font-size: 25px;
+  /* padding: 10px 0; */
+  line-height: 50px;
+  padding: 0;
+}
+
+.main {
+  padding: 50px;
+}
+.main img {
+  width: 100%;
+}
+
+.order {
+  padding: 0;
+  list-style-type: none;
+}
+
+.footer {
+  /* width: 100%;
+  height: 500px;
+  background-color: #9e9e9e; */
+  background-color: #777;
+  padding: 100px;
+}
+.addr {
+  /* font-size: 50px;
+  color: white;
+  padding: 100px 0 0 100px; */
+  color: white;
+  font-size: 40px;
+}
+
+.make {
+  /* font-size: 30px;
+  color: yellow;
+  text-align: right;
+  padding: 100px 0 0 900px; */
+  color: yellow;
+  text-align: right;
+  font-size: 20px;
+}
