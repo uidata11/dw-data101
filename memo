@@ -1,0 +1,182 @@
+수업 필기
+			11.26수업
+	cmd
+ipconfig
+ping 
+arp -a
+netstat -an
+	ipv4주소 (32bit)
+2진수
+8bit = 1byte (영어,숫자,문자. 그외 문자는 2byte)
+1024byte = 1kbyte
+1024k =1MB
+1024k = 1GB
+	비주얼 스튜디오 코드 (<> 하나하나가 태그,elements 라고 부름)
+1. <!-- 주석 -->  
+주석:메모의기능,코드의 설명또는 기능 보류 (동작안됨)
+ctrl + /
+2. html 태그 : 태그는 문서를 작성하기 위한 방법
+태그작성 방법은 <태그명> <> 안에 태그이름을 작성 해야 기능이 동작한다.
+3. 대부분의 태그는 시작태그와 종료태그가 있다. 
+ex) <b> 시작, <b/> 종료 
+<br> 같은 태그는 종료 태그가 없다. 
+4. <body><!--브라우저 화면에 출력되는 부분-->
+    <b>굵게</b>굵기
+    <!-- 줄바꿀때는 <br> 한줄을 끝내고 다음줄 시작 -->
+    <strong>강조효과에 </strong> 사용 <!-- strong 태그가 b태그보다 표현가능 글자수가 많다.-->
+	html의 코드 종류 크게 두가지
+1. 블록태그 : 한 줄 전체가 블록태그 영향을 받음
+2. 인라인태그 : 줄이 안바뀌며 영역 안에만 효과
+<p>, <div>
+div*3>b+mark 하고 엔터
+
+
+github.com/masterJKR/data501 <<< 수업 내용 자료
+
+			11월27일
+github / chan7pp@naver.com / dbdkdl1010
+저장할때 : git add . / git commit -m 'second commit' / git push origin main 
+<hr> 줄
+
+			11월28일
+			am
+<i> = <em>
+<b> = <strong>
+
+<li> = list (자동으로 앞에 숫자가 붙음)
+<ol> = ordered list
+<ul> = un-ordered list (잴 굿)
+<dl> = description list (<dt>,<dd>)
+<ol type="ctrl + space">
+ctrl + d = 같은 태그 잡아주기
+
+table 디폴트값으로
+<table> 
+<caption> 
+<tr> row
+ <th> head(강조)
+  <td> 내용
+구성 :
+<table>
+.<thead>
+..<tr col=>
+.<tbody>
+..<tr>
+...<th> table head
+....<td> table data
+.<tfoot>
+..<tr>
+...<th>
+....<td>
+			pm
+style
+사용자이름,id,class,가상 {~~~~~~}
+ex) 
+<div class="이름">lorem</div>
+<style> 에서 효과 넣어줄때 ->  .(classname)
+<width
+<height
+<border
+
+테두리 선을 넣을때 : 
+        border-width: 2px; <!--테두리 선의 굵기-->
+        border-style: solid; <!--테두리 선 모양-->
+        border-color: red; <!--테두리 색상-->
+!!!세가지가 있어야 보여짐
+BUT
+4면 다 선넣기 
+	border: 3px solid black; 으로해도됨
+부분 선에 바로 넣기 : (left,right,top,bottom)
+        border-left: 2px solid black;
+        border-bottom: 2px solid black;
+그림자 :
+	box-shadow: 7px 7px 7px gray;
+            /*그림자는 수평거리, 수직거리, 흐림정도, (그림자크기), 색상*/
+테두리선 겹치기:
+	스타일에서 {border-collapse: collapse;}
+
+
+<table class="tb">
+        tr.row*3>td.col*4{$}
+    </table>
+
+			11월29일
+			am
+div.first -> <div class='first'>
+.first -> <div class='first'>
+
+>github
+git init
+*git push origin main
+git remote add origin (복붙하기)
+*git add .
+*git commit -m 'first commit'
+git checkout develop
+
+
+a=>navigation(보내버리기
+속성 => href=""
+id값, url 웹사이트 주소
+예) <div id="id이름">
+<a href="#id이름">
+			pm
+/*바깥쪽 여백 - margin, 안쪽 여백 - padding*/
+margin/border/padding
+
+ padding: 10px 20px 4px 15px;
+
+인라인과 블록의 차이
+블록 : 분모의 크기에 영향 ㅇ(기본적으로 크기 ㅇ)
+인라인 : 분모의 크기에 영향 x (기본적으로 크기를 가질수 없기에)
+
+!!!앞으로 style 안쓰고 link rel -> "~~".css 로 가져옴
+
+
+			12.02
+			am
+header, main, footer
+			ap
+./(margin.css) 현재파일
+../(margin.css) 상위파일
+
+css: 
+*{~
+~} 모든테그들에게 적용
+
+.menu:hover {
+  /* 마우스커서가 위에 올라오면 동작 */
+  cursor: pointer;
+  color: red;
+}
+
+더미이미지
+  <img src="https://picsum.photos/100/50?ramdom=1" alt="">
+   <img src="https://picsum.photos/100/50?ramdom=2" alt="">
+
+브라우저 페이지 가운데 오도록
+*{margin: 0 auto;}
+   		
+			12.03
+			am
+art+z 깔끔하게
+			ap
+브라우저에서 가운대로 오게끔 (가장 큰 테두리에)
+margin: 0 auto;
+
+블록태그를 옆으로
+ display: inline-block;
+또는
+flex
+
+마우스 올라갔을때 변화
+.menu:hover {
+  background: white;
+  color: gray;
+}
+
+리스트 (ol, ul, li) 타입없애기
+{list-style-type: none;}
+
+            12.04
+            am
+            

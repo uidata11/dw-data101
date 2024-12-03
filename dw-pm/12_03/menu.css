@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+}
+.header {
+  width: 1000px;
+  margin: 0 auto;
+  background: gray;
+  color: white;
+  font-size: 25px;
+}
+.menu {
+  display: inline-block;
+  padding: 15px 30px;
+}
+
+.menu:hover {
+  background: white;
+  color: gray;
+  border-radius: 8px;
+}
