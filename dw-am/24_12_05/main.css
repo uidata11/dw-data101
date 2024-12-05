@@ -1,0 +1,46 @@
+div.img {
+  border: 2px solid rgb(158, 158, 158);
+  position: relative;
+}
+div.img img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+div.img div {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  color: hsla(9, 100%, 60%, 0.959);
+  font-size: 20px;
+  font-weight: 900;
+}
+
+div.img .ab {
+  position: absolute;
+}
+
+div.img h1 {
+  top: 100px;
+  left: 100px;
+  color: #ff3e7e;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+div.img:hover h1{
+
+    transform: ;
+}
+
+div.img div {
+  bottom: 50px;
+  left: 50px;
+}
+
+ui {
+  display: flex;
+  list-style-type: none;
+  column-gap: 10px;
+  justify-content: space-between;s
+}

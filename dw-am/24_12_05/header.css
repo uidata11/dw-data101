@@ -1,0 +1,63 @@
+body {
+  background-color: hwb(0 7% 93%);
+  color: whitesmoke;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header ul {
+  column-gap: 10px;
+}
+ul {
+  list-style-type: none;
+}
+
+button.globe {
+  border: 2px solid black;
+  height: 36px;
+  color: whitesmoke;
+  border-radius: 18px;
+  background: ;
+  cursor: pointer;
+  border: 1px solid whitesmoke;
+}
+
+button.login {
+  height: 36px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  background-color: #ff2121;
+  color: whitesmoke;
+  transition: all 0.5s;
+}
+button.login:hover {
+  background-color: #a80000;
+}
+header ul {
+  display: flex;
+}
+
+button.globe img {
+  width: 15px;
+}
+button.title > a {
+  font-size: 35px;
+  font-weight: 800;
+  color: rgb(190, 0, 0);
+  background: transparent;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s;
+  border-radius: 10px;
+}
+button {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button.title > a:hover {
+  color: #850000;
+}
