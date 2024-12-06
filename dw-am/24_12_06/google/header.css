@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  padding: 30px;
+  text-align: center;
+  font-size: 50px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+}
+header ul {
+  display: flex;
+  justify-content: right;
+  column-gap: 5px;
+  padding-right: 10px;
+}
+ul {
+  list-style: none;
+}
+img {
+  width: 15px;
+  height: 15px;
+}
+
+header ul button:hover {
+  text-decoration: underline;
+}
+
+button .sss {
+  border-radius: 25px;
+  height: 50px;
+  width: 50px;
+}
+
+button .sss:hover {
+  background-color: gray;
+  transition: all 0.3s;
+}
+
+/* .sss:hover {
+  background-color: rgb(211, 211, 211);
+  height: 60px;
+  width: 60px;
+}  */
+
+.user {
+  background-color: rgb(133, 228, 55);
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button:hover {
+  cursor: pointer;
+}
+button.user:hover {
+  text-decoration: none;
+}
+button.user div {
+  width: 75%;
+  height: 75%;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button .user:hover {
+  background-color: gray;
+  transition: all 0.3s;
+}

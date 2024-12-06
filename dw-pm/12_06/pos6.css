@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#wrap {
+  width: 800px;
+  margin: 0 auto;
+}
+
+#header {
+  background-color: lightblue;
+  padding: 20px 0;
+}
+.menu {
+  padding: 0 30px;
+}
+#move /* position : fixed 는 브라우저가 기준 */ {
+  position: fixed;
+  left: 100px;
+  bottom: 600px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+#header /*position : sticky 는 상위태그에 포지션없어야함*/ {
+  position: sticky;
+  padding: 20px 0;
+  top: 0px;
+}

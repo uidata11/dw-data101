@@ -179,4 +179,60 @@ flex
 
             12.04
             am
-            
+            스튜디오 코드를 git으로 업로드
+git 파일을 스튜디오 코드로 업로드(터미널)
+
+git init
+git add .
+git commit -m "meme"
+git remot add origin 주소
+git push -u origin main
+
+			pm
+position
+  /* position 은 기본값 static  */
+  /* relative 는 (분모)태그가 시작하는곳이 기준 x:0,y:0 */
+  /* absoulte 는 포지션을 가지는 분모(상위)태그가 기준(태그순서무시) */
+
+
+			12.05
+			am
+button.login {
+  height: 36px;
+  cursor: pointer;
+  border: none;
+  border-radius: 2px;
+  background-color: #ff2121;
+  color: whitesmoke;
+  transition: all 0.5s;   <<< 천천히 실행
+}
+
+
+			ap
+가입하기!
+부트스트랩(아이콘)
+폰트어썸(아이콘)
+
+
+<<<<<<<더미 이미지>>>>>>>> 
+https://picsum.photos/너비/높이?random=번호
+https://loremflickr.com/너비/높이/카테고리?random=번호
+
+			12.06
+			am
+css
+:hover 마우스 올릴때 변화
+:action 클릭할때 변화
+
+
+완전 정가운데로 
+ justify-content: center;
+  align-items: center;
+
+서로 찢어지기 js tap sb
+justify-content: space-between;
+
+ul에 무조건
+padding: 0;
+  margin: 0;
+  list-style: none;

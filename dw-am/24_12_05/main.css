@@ -29,7 +29,6 @@ div.img h1 {
 }
 
 div.img:hover h1{
-
     transform: ;
 }
 
@@ -38,9 +37,10 @@ div.img div {
   left: 50px;
 }
 
-ui {
+ul button{
   display: flex;
   list-style-type: none;
   column-gap: 10px;
   justify-content: space-between;s
+  background-color: transition;
 }

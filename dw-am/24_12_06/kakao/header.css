@@ -1,0 +1,30 @@
+h1 {
+  background-color: rgb(255, 255, 82);
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+div.f {
+  justify-content: space-between;
+}
+.f {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+}
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.po {
+  width: 12px;
+  height: 12px;
+}
