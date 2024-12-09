@@ -236,3 +236,46 @@ ul에 무조건
 padding: 0;
   margin: 0;
   list-style: none;
+  			ap
+언어설정
+설정 > emmet > 항목추가
+
+
+			12.09
+			am
+git 
+
+알아서 계산해서 맞춰주는 css
+ex) calc(100vw - 10px)
+
+			ap
+float:left;
+정렬,배치 : 방향으로
+플룻을 사용할때 부모태그에 높이가없다면 ▼
+
+ #box1::after {
+        /* ::after 가상선택자. ::after에 값이 들어갈 수 있는 자리만 확보*/
+        content: "";
+        clear: both;
+        display: table;
+      }
+      .divBox {
+        float: left;
+        width: 100px;
+        border: 1px solid black;
+      }
+
+
+가상선택자 :nth-child(n) (태그중 n번째만 선택)
+첫번째자식 태그 : first-child
+마지막 자식 태그 : last-child
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+display: flex를 사용할때 알아야 할것
+1. 넓이 높이를 줘야한다. (반응형(모바일)이기에 %로 줘야 편함)
+2. 주축(왼에서 오른쪽으로)과 교차축(위에서 아래로 모든자식들이 가짐)
+
+주축을 컨트롤(분모태그에) justify-content: ~;
+교차축을 컨트롤 (분모태그에) align-items: ~;
+ 
+주축과 교차축 방향 바꾸기 : flex-direction: column; (row가 디폴트값)

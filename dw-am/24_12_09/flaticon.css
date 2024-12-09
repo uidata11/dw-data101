@@ -1,0 +1,95 @@
+/* * {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: whitesmoke;
+  width: 160px;
+  height: 100vh;
+  padding: 20px;
+  position: fixed;
+  top: ;
+}
+li {
+  list-style: none;
+}
+nav button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  height: 30px;
+}
+ul .auth {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  margin-top: 10px;
+}
+button.auth {
+  background-color: #729b6a;
+  border-radius: 8px;
+  text-align: center;
+  color: whitesmoke;
+}
+.authlogin {
+  background-color: whitesmoke;
+  border: 1px solid lightgreen;
+}
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  width: 200px;
+  background-color: whitesmoke;
+  height: 100vh;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  z-index: 100;
+}
+button {
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  padding: 12px;
+  margin: 5px 0px;
+  background-color: transparent;
+}
+img {
+  width: 12px;
+}
+ul {
+  list-style: none;
+}
+.auth {
+  background-color: #72ad6a;
+  color: whitesmoke;
+  text-align: center;
+  margin: 2px;
+  border-radius: 8px;
+}
+#login {
+  background-color: transparent;
+  color: black;
+  border: 1px solid hsl(113, 11%, 84%);
+}
+#login:hover {
+  background-color: gainsboro;
+  transition: all 0.3s;
+}
+body {
+  background-color: gray;
+  z-index: 1;
+}
+.ll {
+  display: flex;
+  justify-content: space-between;
+}

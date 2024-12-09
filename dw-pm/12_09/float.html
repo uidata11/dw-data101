@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>여백</title>
+    <style>
+      #box1 {
+        background-color: red;
+      }
+      #box1::after {
+        /* ::after 가상선택자. ::after에 값이 들어갈 수 있는 자리만 확보*/
+        content: "";
+        clear: both;
+        display: table;
+      }
+      .divBox {
+        float: left;
+        width: 100px;
+        border: 1px solid black;
+      }
+      .child {
+        float: left;
+      }
+      .child:nth-child(3) {
+        /* 가상선택자 :nth-child(n) (태그중 n번째만 선택)
+          첫번째자식 태그 : first-child
+          마지막 자식 태그 : last-child */
+        float: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="box1">
+      <div class="divBox">메뉴1</div>
+      <div class="divBox">메뉴2</div>
+      <div class="divBox">메뉴3</div>
+      <div class="divBox">메뉴4</div>
+    </div>
+    <div id="outBox">나는 메뉴보다 아래쪽에</div>
+    <div class="">나는나는</div>
+    <div class="">나는나는</div>
+    <div id="floatBox">
+      <div class="child">박스1</div>
+      <div class="child">박스2</div>
+      <div class="child">박스3</div>
+      <div id="outBox2">나는박스밖</div>
+    </div>
+  </body>
+</html>
+<!-- 
+카멜표기법(함수, id), 스네이크표기법(데이터베이스, class), 헝가리안 표기법, 파스칼표기법(카멜+첫글자대문자) 
+-->

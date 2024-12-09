@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header {
+  width: 100%;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
+  text-align: center;
+}
+header button {
+  height: 50px;
+}
+ul.head {
+  row-gap: 30px;
+}
+button {
+  background-color: transparent;
+  border: none;
+}
+.head button {
+  color: whitesmoke;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+nav {
+  z-index: 99;
+  position: fixed;
+  top: 50px;
+  left: 0;
+  background-color: whitesmoke;
+  height: 100vh;
+  text-align: left;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.rr button {
+  background-color: gainsboro;
+  margin: 0 5px;
+  color: gray;
+}
+
+.r {
+}
