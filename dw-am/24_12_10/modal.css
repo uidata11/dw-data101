@@ -1,0 +1,68 @@
+.modal {
+  position: fixed;
+  border: 1px solid;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+.icon {
+  width: 10px;
+  height: 10px;
+}
+.modal .l {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+
+.modal .r {
+  text-align: right;
+  flex: 1;
+  padding: 20px;
+}
+.modal .r button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.modal .r button.icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+}
+
+button.icon.github {
+  background-color: black;
+  color: whitesmoke;
+}
+
+button.icon.google {
+  border: 1px solid lightgray;
+}
+.sns ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+h3 {
+  text-align: left;
+}
+div.sns {
+  text-align: left;
+}
+button.icon.fb {
+  background-color: rgb(78, 78, 226);
+  color: whitesmoke;
+}
+button.signup {
+  margin: 80px;
+  padding: ;
+}
+
+.modal .r button.signup {
+  cursor: default;
+}

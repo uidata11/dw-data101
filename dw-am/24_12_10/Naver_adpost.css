@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+button {
+  border: none;
+  background-color: transparent;
+}
+
+header,
+ul {
+  display: flex;
+  column-gap: 10px;
+}
+header {
+  background-color: rgb(41, 41, 41);
+  justify-content: space-between;
+  padding: 0 5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  width: calc(100vw - 10px);
+}
+header button {
+  height: 50px;
+  color: whitesmoke;
+}
+.title {
+  font-size: 30px;
+  font-weight: 800;
+}

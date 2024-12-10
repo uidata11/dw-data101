@@ -1,0 +1,48 @@
+form.input {
+  display: flex;
+}
+.input {
+  border: 1px solid;
+  row-gap: 5px;
+  max-width: 300px;
+}
+.input form {
+  display: flex;
+}
+label {
+  color: gray;
+  font-size: 10px;
+}
+form.input button#log {
+  border-radius: 0;
+  border: none;
+  height: 40px;
+  background-color: #157732;
+  color: whitesmoke;
+  cursor: pointer;
+}
+form.input input {
+  border-radius: 0;
+  border: 1px solid lightgray;
+  border-right: 0;
+  padding-left: 10px;
+  outline: none;
+}
+form.input input:focus {
+  border-color: #157732;
+}
+.input form input::placeholder {
+  color: gainsboro;
+}
+.input form button {
+  border-radius: 0;
+  border: none;
+  height: 40px;
+  background-color: #157732;
+  color: whitesmoke;
+  cursor: pointer;
+}
+#log {
+  font-size: 10px;
+  width: 50px;
+}

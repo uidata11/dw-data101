@@ -279,3 +279,23 @@ display: flex를 사용할때 알아야 할것
 교차축을 컨트롤 (분모태그에) align-items: ~;
  
 주축과 교차축 방향 바꾸기 : flex-direction: column; (row가 디폴트값)
+      12.10
+			am
+:focus 클릭할때
+
+선택한것만 모두선택 : Ctrl + D + Ctrl + Shift + L
+
+정가운데로 오게 하기 ex)팝업창
+  {position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);}
+			
+			ap
+display: flex; 이고, flex-direction: column;일 경우 
+자식태그들의 위치 변화
+order: n;
+order없는 태그들이 위치후 order 순서대로 위치됨
+
+글씨(이미지)가운데로
+padding: 10px 10px;만 주기

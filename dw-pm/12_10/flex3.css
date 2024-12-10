@@ -1,0 +1,16 @@
+.item {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+#wrap1 {
+  display: flex;
+  /* width: 700px; */
+  flex-wrap: wrap; /* 분모태그 크기에 자동으로 들어감 */
+  flex-direction: column;
+  height: 700px;
+  border: 1px solid red;
+  justify-content: center;
+  gap: 10px;
+}
