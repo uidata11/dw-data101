@@ -1,0 +1,10 @@
+button.s {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-top: 50px;
+  text-align: right;
+}
+.s span {
+  color: darkcyan;
+}

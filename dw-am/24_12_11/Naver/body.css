@@ -1,0 +1,75 @@
+.wrap {
+  position: fixed;
+  width: 400px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  border: 1px solid rgba(83, 83, 83, 0.26);
+  box-shadow: 20px;
+  padding: 20px;
+}
+h2.f {
+  font-weight: 900;
+}
+p {
+  font-size: 15px;
+  text-align: center;
+}
+.wrap .naver {
+  background-color: rgb(80, 173, 80);
+  border: none;
+  width: 100%;
+  border-radius: 7px;
+  display: flex;
+  margin-bottom: 15px;
+  justify-content: center;
+  column-gap: 10px;
+  cursor: pointer;
+}
+.wrap .naver:hover {
+  background-color: rgb(56, 151, 56);
+}
+.f {
+  color: white;
+}
+ul.aaa {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+ul.aaa button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+ul.aaa button:hover {
+  text-decoration: underline;
+}
+span.f {
+  align-self: center;
+}
+
+/*  */
+.page {
+  position: fixed;
+  width: 400px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  border: 1px solid rgba(83, 83, 83, 0.26);
+  box-shadow: 20px;
+  padding: 20px;
+}
+.page .first {
+  display: flex;
+  flex-direction: column;
+}
+.page .first input {
+  border: 1px solid lightgray;
+  height: 50px;
+  border-radius: 3px;
+}

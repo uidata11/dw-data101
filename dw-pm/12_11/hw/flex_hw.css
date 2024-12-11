@@ -1,0 +1,56 @@
+#flex1 {
+  width: 600px;
+  height: 120px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(108, 111, 183);
+}
+.menu1 {
+  padding: 30px;
+}
+.menu1:nth-child(1) {
+  background-color: yellow;
+}
+.menu1:nth-child(2) {
+  background-color: red;
+}
+.menu1:nth-child(3) {
+  background-color: skyblue;
+}
+.menu1:nth-child(4) {
+  background-color: rgb(171, 97, 78);
+}
+#flex2 {
+  width: 600px;
+  height: 130px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+  background-color: rgb(108, 111, 183);
+  padding-top: 10px;
+}
+.menu2 {
+  padding: 30px;
+}
+.center {
+  align-items: center;
+}
+.menu2:nth-child(1) {
+  background-color: yellow;
+}
+.menu2:nth-child(2) {
+  background-color: red;
+}
+.menu2:nth-child(3) {
+  background-color: skyblue;
+}
+.login,
+.signup {
+  background-color: rgb(171, 97, 78);
+  padding: 0 20px;
+}
+.end {
+  align-self: end;
+  padding-bottom: 10px;
+}

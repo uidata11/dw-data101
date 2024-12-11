@@ -1,0 +1,18 @@
+.flex {
+  display: flex;
+  height: 500px;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(59, 65, 126);
+  align-items: center;
+  color: white;
+  width: 150px;
+  padding-top: 40px;
+  row-gap: 20px;
+}
+.right {
+  background-color: rgb(175, 81, 18);
+  width: 600px;
+}
