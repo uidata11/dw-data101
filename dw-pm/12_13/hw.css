@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+}
+img {
+  display: block;
+  width: 100%;
+}
+#wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+#header {
+  width: 100%;
+  margin-bottom: 50px;
+}
+#header .top {
+  padding-right: 15px;
+}
+#header .top .top_texts {
+  display: flex;
+  justify-content: end;
+  padding: 7px 0;
+}
+#header .top .top_texts .top_text {
+  margin: 0 15px;
+  cursor: pointer;
+  position: relative;
+}
+#header .top .top_texts .top_text:nth-child(2)::before {
+  content: "";
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  margin-right: 15px;
+  position: absolute;
+  height: 20px;
+  left: -15px;
+}
+#header .top .top_texts .top_text:nth-child(3)::after {
+  content: "";
+  border-radius: 5px;
+  border: 1px solid #dadada;
+  margin-right: 15px;
+  position: absolute;
+  height: 20px;
+  left: -15px;
+}
+#header .nav {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+#header .nav .menu_list {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0;
+  font-size: 25px;
+}
+#header .nav .menu_list:hover ~ .sub_menu_list {
+  opacity: 1;
+  transition: all 1s ease-in-out;
+}
+#header .nav .sub_menu_list {
+  position: absolute;
+  width: 100%;
+  background-color: blanchedalmond;
+  left: 0;
+  padding: 50px 0;
+  opacity: 0;
+}
+#header .nav .sub_menu_list .sub_menu {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+#header .nav .sub_menu_list .sub_menu .sub {
+  width: 20%;
+  text-align: center;
+  padding: 20px 0;
+}
+#header .nav .menu_list .menu {
+  cursor: pointer;
+  padding: 5px 15px;
+  position: relative;
+}
+#header .nav .menu_list .menu::before {
+  content: "";
+  border-bottom: 2px solid rgb(255, 182, 194);
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  transition: width 0.7s ease;
+}
+#header .nav .menu_list .menu:hover::before {
+  width: 100%;
+}
+#header .nav .menu_list .menu:hover::before {
+}
+#main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+#main .img_box {
+  /* width: calc(25% - 5px); */
+  /* flex-grow 비율, flex-shrink  공간부족여부 */
+  flex: calc(25% - 5px);
+}
+/* .img_box:hover {
+  transform: scale(1.5);
+  transition: transform 0.5s ease;
+} */
+#main .img_box.one {
+  position: relative;
+  cursor: pointer;
+}
+#main .img_box.one:hover #one {
+  opacity: 1;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  z-index: 50;
+}
+#main #one {
+  position: absolute;
+  opacity: 0;
+}
+
+#main .img_box {
+  position: relative;
+}
+#main .img_box .big {
+  position: absolute;
+  z-index: -10;
+  width: 300%;
+  top: 50%;
+  left: 50%;
+  /* box-shadow: inset 0px 0px 30px darkgray; */
+  mask-image: radial-gradient(
+    circle,
+    rgb(0, 0, 0, 1) 80%,
+    rgb(0, 0, 0, 0) 100%
+  );
+  opacity: 0;
+}
+#main .img_box:hover .big {
+  opacity: 1;
+  z-index: 1000;
+}
