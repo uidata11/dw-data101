@@ -308,3 +308,77 @@ git add .
 git commit -m 'dw-data101'
 git push origin main
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+github 업로드
+git add . && git commit -m 'init' && git push origin main
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+12.11
+			am
+커서 올릴때 밑줄표시
+
+:hover {
+  text-decoration: underline;
+}
+
+터미널에 띄우기 링크
+npm run dev 
+
+버튼 기본 세팅
+cursor: pointer;
+border:none;
+color: inherit;
+text-decoration:none;
+
+			12.13
+			am
+npm create vite@latest
+
+
+npm 
+
+
+찌그러진 이미지 이쁘게
+  object-fit: cover;
+
+			ap
+유용한 사이트
+codepen
+w3school
+
+image.html
+overflow: hidden:
+:hover {transform: scale(1.2);} 이미지 확대
+
+
+글자 css
+font-family:'궁서' 
+글자변환 : text-transform : uppercase; 대문자
+                          lowercase 소문자
+                          capitalize 첫글자만 대문자
+문자와 문자 간격
+    letter-spacing : 5px; 한  글나라
+단어 간격 
+    word-spacing : 7px; 아버지    가방
+
+
+문장(글자) 한줄표기 (제한하기)
+overflow:hidden;
+white-space: nowrap;
+짤린 문장은 ...으로 표기하기(생략하기)
+text-overflow: ellipsis;
+
+			12.16
+			am
+cd ..
+mkdir github
+git hub https://github.com/dw-data101/dw-data101-hw.git
+cd dw-data101-hw
+code .
+
+npm  create vite@latest
+이름적고
+리액트, 자바+00
+git config --global 이름
+git config --global 이메일
+git checkout kch
+git push origin kch
